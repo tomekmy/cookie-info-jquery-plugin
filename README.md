@@ -1,15 +1,18 @@
-## Demo page:
+## Demo page
 https://mysliwiec.pro/cookie-info/
 
-## Dependencies:
+## Description
+This jQuery plugin adds cookie law info message on the page bottom.
+
+## Dependencies
 jQuery - https://jquery.com/
 
-## Installation:
+## Installation
 Add plugin just before `</body>` tag:
 
 `<script type="text/javascript" src="js/jqueryCookieInfo.mini.js"></script>`
 
-## Usage with default parameters:
+## Usage with default parameters
 ```
 //  Equivalent and recommended way of calling: $( document ).ready(function() { });
 $(function () {
@@ -18,7 +21,7 @@ $(function () {
 });
 ```
 
-## Usage with own parameters:
+## Usage with own parameters
 ```
 //  Equivalent and recommended way of calling: $( document ).ready(function() { });
 $(function () {
@@ -26,7 +29,7 @@ $(function () {
 });
 ```
 
-## Sample SCSS (used on demo page):
+## Sample SCSS (used on demo page)
 ```
 .cookie-info {
     position: fixed;
