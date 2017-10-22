@@ -4,6 +4,8 @@ https://mysliwiec.pro/cookie-info/
 ## Description
 This jQuery plugin adds cookie law info message on the page bottom.
 
+The plugin use JavaScript ES6 default function parameters feature which is not supported by older browsers. http://kangax.github.io/compat-table/es6/ . Also i don't use cookies to store accepted policy but browser local storage technology.
+
 ## Dependencies
 jQuery - https://jquery.com/
 
