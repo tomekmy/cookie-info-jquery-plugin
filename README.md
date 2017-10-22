@@ -8,6 +8,10 @@ This jQuery plugin adds cookie law info message on the page bottom.
 jQuery - https://jquery.com/
 
 ## Installation
+Minfied version: [jqueryCookieInfo.mini.js](https://github.com/tomekmy/cookie-info-jquery-plugin/blob/master/dist/js/jqueryCookieInfo.mini.js)
+
+Dev version: [jqueryCookieInfo.js](https://github.com/tomekmy/cookie-info-jquery-plugin/blob/master/src/js/jqueryCookieInfo.js)
+
 Add plugin just before `</body>` tag:
 
 `<script type="text/javascript" src="js/jqueryCookieInfo.mini.js"></script>`
