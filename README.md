@@ -1,26 +1,27 @@
-Demo page: https://mysliwiec.pro/cookie-info/
+## Demo page:
+https://mysliwiec.pro/cookie-info/
 
-Dependencies:
+## Dependencies:
 jQuery - https://jquery.com/
 
-Installation:
-Add plugin just before </body> tag:
-<script type="text/javascript" src="js/jqueryCookieInfo.mini.js"></script>
+## Installation:
+Add plugin just before `</body>` tag:
+`<script type="text/javascript" src="js/jqueryCookieInfo.mini.js"></script>`
 
-Usage with default parameters:
-//  Equivalent and recommended way of calling: $( document ).ready(function() { });
+## Usage with default parameters:
+`//  Equivalent and recommended way of calling: $( document ).ready(function() { });
 $(function () {
   $.cookieInfo(); // Default parameters info = 'I use cookies technology for statistical purposes only.', close = 'OK', cookieInfo = 'cookie-info'
-});
+});`
 
-Usage with own parameters:
-//  Equivalent and recommended way of calling: $( document ).ready(function() { });
+## Usage with own parameters:
+`//  Equivalent and recommended way of calling: $( document ).ready(function() { });
 $(function () {
   $.cookieInfo('Cookie info message', 'Close text', 'CSS selector name');
-});
+});`
 
-Sample SCSS (used on demo page):
-.cookie-info {
+## Sample SCSS (used on demo page):
+`.cookie-info {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -45,4 +46,4 @@ Sample SCSS (used on demo page):
   @keyframes slideUp {
     from {bottom: -5em;} 
     to {bottom: 0;} 
-  }
+  }`
