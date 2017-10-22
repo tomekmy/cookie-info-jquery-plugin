@@ -13,7 +13,8 @@ Add plugin just before `</body>` tag:
 ```
 //  Equivalent and recommended way of calling: $( document ).ready(function() { });
 $(function () {
-  $.cookieInfo(); // Default parameters info = 'I use cookies technology for statistical purposes only.', close = 'OK', cookieInfo = 'cookie-info'
+  // Default parameters info = 'I use cookies technology for statistical purposes only.', close = 'OK', cookieInfo = 'cookie-info'
+  $.cookieInfo();
 });
 ```
 
