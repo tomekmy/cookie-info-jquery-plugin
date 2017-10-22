@@ -24,7 +24,7 @@
         Dev version: <a href="jqueryCookieInfo.js">jqueryCookieInfo.js</a>. Minfied version: <a href="jqueryCookieInfo.mini.js">jqueryCookieInfo.mini.js</a>
     </h3>
     <div>
-        The plugin uses browser local storage. So if you want see cookie info message again please <a href="#" onclick="event.preventDefault(); localStorage.clear(); location.reload();">clear local storage</a> and refresh page.
+        The plugin uses browser local storage. So if you want see cookie info message again please <a href="#" onclick="event.preventDefault(); localStorage.removeItem('cookieInfo'); location.reload();">clear local storage</a> and refresh page.
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
