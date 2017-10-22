@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie info jQuery plugin</title>
+    <meta name="description" content="Add cookies info message at the bottom of the page">
+    <base href="./">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.mini.css?version=1">
+</head>
+
+<body>
+    <h1>
+        Cookie info jQuery plugin demo page
+    </h1>
+    <h2>
+        Plugin adds cookies info message at the bottom of the page
+    </h2>
+    <h3>
+        For additional notes please see GitHub repository: <a href="https://github.com/tomekmy/cookie-info-jquery-plugin/">cookie-info-jquery-plugin</a>.<br>
+        Dev version: <a href="jqueryCookieInfo.js">jqueryCookieInfo.js</a>. Minfied version: <a href="jqueryCookieInfo.mini.js">jqueryCookieInfo.mini.js</a>
+    </h3>
+    <div>
+        The plugin uses browser local storage. So if you want see cookie info message again please <a href="#" onclick="event.preventDefault(); localStorage.clear(); location.reload();">clear local storage</a> and refresh page.
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jqueryCookieInfo.mini.js"></script>
+</body>
+
+</html>

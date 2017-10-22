@@ -1,0 +1,67 @@
+$color1: rgba(7, 2, 13, 1);
+$color2: rgba(93, 183, 222, 1);
+$color3: rgba(241, 233, 219, 1);
+$color4: rgba(163, 155, 139, 1);
+$color5: rgba(113, 106, 92, 1);
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  line-height: 1.4;
+  color: $color1;
+  background: $color2;
+}
+
+a {
+  color: #5c5c5c;
+  text-decoration: none;
+  transition: all 0.3s;
+  &:hover {
+    color: #990000;
+  }
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3.157em;
+}
+
+h2 {
+  font-size: 1.777em;
+}
+
+h3 {
+  font-size: 1.333em;
+}
+
+// { Cookie info
+  .cookie-info {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: .3em;
+    background-color: rgba(243, 234, 243, 0.7);
+    animation: slideUp 2.2s ease-out;
+    &__button {
+      display: inline-block;
+      color: #330000;
+      min-width: 4em;
+      background: #c7c7c7;
+      border-radius: .3em;
+      margin: 0.3em;
+      padding: 0.45em 0.6em;
+      transition: all 0.3s;
+      &:hover {
+        background: #d6d6d6;
+      }
+     }
+  }
+
+  @keyframes slideUp {
+    from {bottom: -5em;} 
+    to {bottom: 0;} 
+  }
+// } Cookie info
