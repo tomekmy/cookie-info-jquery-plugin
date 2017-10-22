@@ -6,22 +6,28 @@ jQuery - https://jquery.com/
 
 ## Installation:
 Add plugin just before `</body>` tag:
-```<script type="text/javascript" src="js/jqueryCookieInfo.mini.js"></script>```
+
+`<script type="text/javascript" src="js/jqueryCookieInfo.mini.js"></script>`
 
 ## Usage with default parameters:
-```//  Equivalent and recommended way of calling: $( document ).ready(function() { });
+```
+//  Equivalent and recommended way of calling: $( document ).ready(function() { });
 $(function () {
   $.cookieInfo(); // Default parameters info = 'I use cookies technology for statistical purposes only.', close = 'OK', cookieInfo = 'cookie-info'
-});```
+});
+```
 
 ## Usage with own parameters:
-```//  Equivalent and recommended way of calling: $( document ).ready(function() { });
+```
+//  Equivalent and recommended way of calling: $( document ).ready(function() { });
 $(function () {
   $.cookieInfo('Cookie info message', 'Close text', 'CSS selector name');
-});```
+});
+```
 
 ## Sample SCSS (used on demo page):
-```.cookie-info {
+```
+.cookie-info {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -46,4 +52,5 @@ $(function () {
   @keyframes slideUp {
     from {bottom: -5em;} 
     to {bottom: 0;} 
-  }```
+  }
+  ```
