@@ -48,8 +48,7 @@ const friendlyErrors = new FriendlyErrorsWebpackPlugin({
     // You can listen to errors transformed and prioritized by the plugin 
     // severity can be 'error' or 'warning' 
   },
-  // should the console be cleared between each compilation? 
-  // default is true 
+  // should the console be cleared between each compilation?
   clearConsole: true,
 
   // add formatters and transformers (see below) 
