@@ -76,7 +76,7 @@ module.exports = __webpack_require__(3);
 /* 1 */
 /***/ (function(module, exports) {
 
-
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'D:\\xampp\\htdocs\\cookies\\src\\js\\main.js'");
 
 /***/ }),
 /* 2 */
