@@ -1,4 +1,5 @@
 (function ($) {
+  'use strict';
   // Cookie info jQuery plugin
   $.cookieInfo = function (info = 'This website uses cookies to improve browsing experience and provide additional functionality.', close = 'OK', cookieInfo = 'cookie-info') {
     if (!localStorage.cookieInfo) {
