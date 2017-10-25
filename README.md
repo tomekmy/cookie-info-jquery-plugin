@@ -14,7 +14,7 @@ Minfied version: [jqueryCookieInfo.mini.js](https://github.com/tomekmy/cookie-in
 
 Dev version: [jqueryCookieInfo.js](https://github.com/tomekmy/cookie-info-jquery-plugin/blob/master/src/js/jqueryCookieInfo.js)
 
-Add plugin just before `</body>` tag:
+Add plugin just before `</body>` closing tag:
 
 `<script type="text/javascript" src="js/jqueryCookieInfo.mini.js"></script>`
 
@@ -22,7 +22,10 @@ Add plugin just before `</body>` tag:
 ```
 //  Equivalent and recommended way of calling: $( document ).ready(function() { });
 $(function () {
-  // Default parameters info = 'I use cookies technology for statistical purposes only.', close = 'OK', cookieInfo = 'cookie-info'
+  // Default parameters
+  // info = 'This website uses cookies to improve browsing experience and provide additional functionality.'
+  // close = 'OK'
+  // cookieInfo = 'cookie-info'
   $.cookieInfo();
 });
 ```
